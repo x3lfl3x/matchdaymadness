@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import { TeamsList } from './components/Teams/TeamsList';
-
+import React from 'react';
+import TeamsList from './components/Teams/TeamsList';
 
 function App() {
-  return (
-    <div><TeamsList/></div>
-    //ose <> <TeamList/> </>
-  );
-}
+      return (
+        <div>
+          <h1>Welcome to Match Day Madness!</h1>
+          <p>This is a dummy component to test the server.</p>
+          <TeamsList />
+        </div>
+      );
+    }
 
 export default App;
